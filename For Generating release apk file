@@ -1,0 +1,6 @@
+For Generating release apk file
+ steps: generate key store file
+
+ keytool -genkey -v keystore app-key.keystore -alias app-key -keyalg RSA -keysize 2048 -validity 10000
+
+ appkey.keystore: is a keystore file and for alias prefer same name keystore
